@@ -473,7 +473,8 @@ export default function Home() {
               href={LINE_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-primary text-white font-bold py-3 px-8 rounded-lg hover:brightness-110 transition shadow-md text-lg"
+              className="inline-flex items-center gap-2 text-primary font-extrabold py-3.5 px-10 rounded-xl hover:scale-[1.03] transition-all duration-300 text-lg border border-yellow-200/70"
+              style={gold3DStyle}
             >
               <MessageCircle size={20} />
               สอบถามราคาทันที
@@ -663,6 +664,32 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 gap-8 mb-12">
             <div className="space-y-5">
+              <div className="bg-white p-6 rounded-xl border border-gray-100 shadow-md hover:shadow-lg transition">
+                <div className="flex items-start gap-4">
+                  <div className="w-12 h-12 rounded-xl overflow-hidden flex items-center justify-center flex-shrink-0 border border-blue-100">
+                    <img
+                      src="/facebook-contact-icon.png"
+                      alt="Facebook"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-primary mb-1">Facebook</h3>
+                    <a
+                      href={FB_URL}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary font-semibold hover:underline text-base"
+                    >
+                      ร้านหลอมทองอุดร TK
+                    </a>
+                    <p className="text-sm text-gray-500 mt-1">
+                      ติดตามข่าวสารและผลงานจริงของร้านได้ที่ Facebook
+                    </p>
+                  </div>
+                </div>
+              </div>
+
               <div className="bg-white p-6 rounded-xl border border-gray-100 shadow-md hover:shadow-lg transition">
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 bg-green-50 rounded-xl flex items-center justify-center flex-shrink-0">
