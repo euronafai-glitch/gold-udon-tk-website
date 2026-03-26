@@ -404,10 +404,10 @@ export default function Home() {
         <div className="container relative z-10 mx-auto px-4">
           <div className="text-center mb-14">
             <h2
-              className="text-3xl md:text-4xl font-extrabold mb-3 brand-gold-title"
+              className="text-3xl md:text-4xl font-extrabold mb-3 text-white"
               style={{
                 textShadow:
-                  "0 1px 0 rgba(255, 231, 156, 0.75), 0 2px 0 rgba(128, 74, 0, 0.92), 0 3px 0 rgba(101, 18, 0, 0.86), 0 7px 14px rgba(70, 0, 0, 0.62)",
+                  "0 1px 0 rgba(255,255,255,0.92), 0 2px 0 rgba(120,0,0,0.72), 0 6px 14px rgba(0,0,0,0.58)",
               }}
             >
               บริการของเรา
